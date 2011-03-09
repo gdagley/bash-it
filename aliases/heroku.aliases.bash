@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # heroku
-alias h='heroku'
+# alias h='heroku'
 alias hl='heroku list'
 alias hi='heroku info'
 alias ho='heroku open'

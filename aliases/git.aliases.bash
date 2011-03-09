@@ -4,7 +4,7 @@
 alias gcl='git clone'
 alias ga='git add'
 alias gall='git add .'
-alias g='git'
+# alias g='git'
 alias get='git'
 alias gst='git status'
 alias gs='git status'
@@ -44,13 +44,13 @@ esac
 function git-help() {
   echo "Git Custom Aliases Usage"
   echo
-  echo "  gcl	  = git clone"
+  echo "  gcl    = git clone"
   echo "  g       = git"
-  echo "  get 	  = git"
+  echo "  get     = git"
   echo "  ga      = git add"
-  echo "  gall	  = git add ."
+  echo "  gall    = git add ."
   echo "  gst/gs  = git status"
-  echo "  gss	  = git status -s"
+  echo "  gss    = git status -s"
   echo "  gl      = git pull"
   echo "  gup     = git fetch && git rebase"
   echo "  gp      = git push"
@@ -58,7 +58,7 @@ function git-help() {
   echo "  gdv     = git diff -w \"$@\" | vim -R -"
   echo "  gc      = git commit -v"
   echo "  gca     = git commit -v -a"
-  echo "  gci 	  = git commit --interactive"
+  echo "  gci     = git commit --interactive"
   echo "  gb      = git branch"
   echo "  gba     = git branch -a"
   echo "  gcount  = git shortlog -sn"

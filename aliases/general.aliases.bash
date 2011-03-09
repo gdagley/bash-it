@@ -5,14 +5,14 @@ alias sl=ls
 alias ls='ls -G'        # Compact view, show colors
 alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
-alias l='ls -a'
+# alias l='ls -a'
 alias l1='ls -1'
 
 alias _="sudo"
 
 if [ $(uname) = "Linux" ]
 then
-	alias ls="ls --color=always"
+  alias ls="ls --color=always"
 fi
 
 alias c='clear'
@@ -42,8 +42,8 @@ alias h='history'
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 # Directory
-alias	md='mkdir -p'
-alias	rd=rmdir
+alias  md='mkdir -p'
+alias  rd=rmdir
 alias d='dirs -v'
 
 function aliases-help() {
@@ -67,5 +67,5 @@ function aliases-help() {
   echo "  piano  = pianobar"
   echo "  q      = exit"
   echo "  irc    = $IRC_CLIENT"
-  echo 
+  echo
 }
