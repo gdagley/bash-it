@@ -20,6 +20,8 @@ alias restart='touch tmp/restart.txt'  # restart passenger
 alias devlog='tail -f log/development.log'
 alias taild='tail -f log/development.log' # tail dev log
 
+alias bx='bundle exec'
+
 function rails-help() {
   echo "Rails Aliases Usage"
   echo
